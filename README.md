@@ -3,7 +3,7 @@
 很多包非常有趣，值得收藏，满足大家的收集癖！
 如果觉得有用，请分享并star，谢谢！
 
-涉及内容包括：**中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器、职业名称词库、同义词库、反义词库、否定词库、汽车品牌词库、汽车零件词库、连续英文切割、各种中文词向量、公司名字大全、古诗词库、IT词库、财经词库、成语词库、地名词库、历史名人词库、诗词词库、医学词库、饮食词库、法律词库、汽车词库、动物词库、中文聊天语料、中文谣言数据、百度中文问答数据集、句子相似度匹配算法集合、bert资源、文本生成&摘要相关工具、cocoNLP信息抽取工具**。
+涉及内容包括：**中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器、职业名称词库、同义词库、反义词库、否定词库、汽车品牌词库、汽车零件词库、连续英文切割、各种中文词向量、公司名字大全、古诗词库、IT词库、财经词库、成语词库、地名词库、历史名人词库、诗词词库、医学词库、饮食词库、法律词库、汽车词库、动物词库、中文聊天语料、中文谣言数据、百度中文问答数据集、句子相似度匹配算法集合、bert资源、文本生成&摘要相关工具、cocoNLP信息抽取工具、国内电话号码正则匹配、清华大学XLORE:中英文跨语言百科知识图谱、清华大学人工智能技术系列报告、自然语言生成、NLU太难了系列、自动对联数据及机器人、用户名黑名单列表、罪名法务名词及分类模型、微信公众号语料、cs224n深度学习自然语言处理课程、中文手写汉字识别、中文自然语言处理 语料/数据集、变量命名神器、分词语料库+代码、任务型对话英文数据集、ASR 语音数据集 + 基于深度学习的中文语音识别系统、笑声检测器、Microsoft多语言数字/单位/如日期时间识别包、中华新华字典数据库及api(包括常用歇后语、成语、词语和汉字)、文档图谱自动生成、SpaCy 中文模型、Common Voice语音识别数据集新版、神经网络关系抽取、基于bert的命名实体识别、关键词(Keyphrase)抽取包pke、基于医疗领域知识图谱的问答系统、基于依存句法与语义角色标注的事件三元组抽取、依存句法分析4万句高质量标注数据、cnocr：用来做中文OCR的Python3包、中文人物关系知识图谱项目、中文nlp竞赛项目及代码汇总、中文字符数据、speech-aligner: 从“人声语音”及其“语言文本”产生音素级别时间对齐标注的工具、AmpliGraph: 知识图谱表示学习(Python)库：知识图谱概念链接预测、Scattertext 文本可视化(python)、语言/知识表示工具：BERT & ERNIE、中文对比英文自然语言处理NLP的区别综述、Synonyms中文近义词工具包、HarvestText领域自适应文本挖掘工具（新词发现-情感分析-实体链接等）、word2word：(Python)方便易用的多语言词-词对集：62种语言/3,564个多语言对、语音识别语料生成工具：从具有音频/字幕的在线视频创建自动语音识别(ASR)语料库、构建医疗实体识别的模型（包含词典和语料标注）、单文档非监督的关键词抽取、Kashgari中使用gpt-2语言模型、开源的金融投资数据提取工具、文本自动摘要库TextTeaser: 仅支持英文、人民日报语料处理工具集、一些关于自然语言的基本模型、基于14W歌曲知识库的问答尝试--功能包括歌词接龙and已知歌词找歌曲以及歌曲歌手歌词三角关系的问答、基于Siamese bilstm模型的相似句子判定模型并提供训练数据集和测试数据集、用Transformer编解码模型实现的根据Hacker News文章标题自动生成评论、用BERT进行序列标记和文本分类的模板代码、LitBank：NLP数据集——支持自然语言处理和计算人文学科任务的100部带标记英文小说语料、百度开源的基准信息抽取系统、虚假新闻数据集、Facebook: LAMA语言模型分析，提供Transformer-XL/BERT/ELMo/GPT预训练语言模型的统一访问接口、CommonsenseQA：面向常识的英文QA挑战**。
 
 **1\. textfilter: 中英文敏感词过滤**  [observerss/textfilter](https://github.com/observerss/textfilter)
 ```
@@ -127,11 +127,11 @@ IDs = re.findall(IDCards_pattern, text, flags=0)
 视野	        宽广	0.305762728932	0.325320747491
 大峡谷	惊险	0.312137906517	0.378594957281
 ```
-**14\. 中文词库、停用词、敏感词** [dongxiexidian/Chinese](https://github.com/dongxiexidian/Chinese)
+**14\. 中文词库、停用词、敏感词** [dongxiexidian/Chinese](https://github.com/fighting41love/Chinese_from_dongxiexidian)
 
 此package的敏感词库分类更细：
 
-[反动词库](https://github.com/dongxiexidian/Chinese/blob/master/%E6%95%8F%E6%84%9F%E8%AF%8D%E5%BA%93/%E5%8F%8D%E5%8A%A8%E8%AF%8D%E5%BA%93.txt)， [敏感词库表统计](https://github.com/dongxiexidian/Chinese/blob/master/%E6%95%8F%E6%84%9F%E8%AF%8D%E5%BA%93/%E6%95%8F%E6%84%9F%E8%AF%8D%E5%BA%93%E8%A1%A8%E7%BB%9F%E8%AE%A1.txt)， [暴恐词库](https://github.com/dongxiexidian/Chinese/blob/master/%E6%95%8F%E6%84%9F%E8%AF%8D%E5%BA%93/%E6%9A%B4%E6%81%90%E8%AF%8D%E5%BA%93.txt)， [民生词库](https://github.com/dongxiexidian/Chinese/blob/master/%E6%95%8F%E6%84%9F%E8%AF%8D%E5%BA%93/%E6%B0%91%E7%94%9F%E8%AF%8D%E5%BA%93.txt)， [色情词库](https://github.com/dongxiexidian/Chinese/blob/master/%E6%95%8F%E6%84%9F%E8%AF%8D%E5%BA%93/%E8%89%B2%E6%83%85%E8%AF%8D%E5%BA%93.txt)
+[反动词库](https://github.com/fighting41love/funNLP/tree/master/data/敏感词库)， [敏感词库表统计](https://github.com/fighting41love/funNLP/tree/master/data/敏感词库)， [暴恐词库](https://github.com/fighting41love/funNLP/tree/master/data/敏感词库)， [民生词库](https://github.com/fighting41love/funNLP/tree/master/data/敏感词库)， [色情词库](https://github.com/fighting41love/funNLP/tree/master/data/敏感词库)
 
 **15\. 汉字转拼音：**[mozillazg/python-pinyin](https://github.com/mozillazg/python-pinyin)
 
@@ -215,7 +215,7 @@ Hi，all。下周一下午三点开会
 
 **29\. 古诗词库：** [github repo](https://github.com/panhaiqi/AncientPoetry) [更全的古诗词库](https://github.com/chinese-poetry/chinese-poetry)
 
-**30\. THU整理的词库：** [link](http://thuocl.thunlp.org/sendMessage)
+**30\. THU整理的词库：** [link](http://thuocl.thunlp.org/)
 
 已整理到本repo的data文件夹中.
 ```
@@ -257,6 +257,11 @@ publishTime: 该谣言被举报时间
 
 **36\. bert资源：**
 
+- bert论文中文翻译: [link](https://github.com/yuanxiaosc/BERT_Paper_Chinese_Translation)
+
++ bert原作者的slides: [link](https://pan.baidu.com/s/1OSPsIu2oh1iJ-bcXoDZpJQ)
+   提取码: iarj 
+
 + 文本分类实践: [github](https://github.com/NLPScott/bert-Chinese-classification-task)
 
 + bert tutorial文本分类教程: [github](https://github.com/Socialbird-AILab/BERT-Classification-Tutorial)
@@ -264,6 +269,9 @@ publishTime: 该谣言被举报时间
 + bert pytorch实现:  [github](https://github.com/huggingface/pytorch-pretrained-BERT)
 
 + bert用于中文命名实体识别 tensorflow版本: [github](https://github.com/macanv/BERT-BiLSTM-CRF-NER)
++ BERT生成句向量，BERT做文本分类、文本相似度计算[github](https://github.com/terrifyzhao/bert-utils)
+
++ bert 基于 keras 的封装分类标注框架 Kashgari，几分钟即可搭建一个分类或者序列标注模型: [github](https://github.com/BrikerMan/Kashgari)
 
 + bert、ELMO的图解： [github](https://jalammar.github.io/illustrated-bert/)
 
@@ -319,4 +327,275 @@ time {"type": "timestamp", "timestamp": "2018-11-27 11:00:00"}
 
 ```
 
-[jieba](https://github.com/fxsjy/jieba)和[hanlp](https://github.com/hankcs/pyhanlp)就不必说了吧。
+**40\. 国内电话号码正则匹配（三大运营商+虚拟等）:** [github](https://github.com/VincentSit/ChinaMobilePhoneNumberRegex)
+
+**41\. 清华大学XLORE:中英文跨语言百科知识图谱:** [link](https://xlore.org/download.html)  
+上述链接中包含了所有实体及关系的TTL文件，更多数据将在近期发布。
+概念，实例，属性和上下位关系数目
+
+|  | 百度  |中文维基   | 英文维基  |  总数  |
+|--|---|---|---|---|
+|概念数量 |32,009	|	150,241|	326,518|	508,768  |
+|实例数量|	1,629,591	|640,622|	1,235,178|	3,505,391  |
+|属性数量|	157,370	|45,190	|26,723	|229.283  |
+|InstanceOf|	7,584,931|	1,449,925|	3,032,515	|12,067,371 |
+|SubClassOf|	2,784	|191,577|	555,538	|749,899  |
+
+跨语言连接（概念/实例）
+
+|  |  百度 | 中文维基  |  英文维基 |
+|--|---|---|--|
+|百度|	-|	10,216/336,890|	4,846/303,108 |
+|中文维基|	10,216/336,890|	-	|28,921/454,579  |
+|英文维基|	4,846/303,108	|28,921/454,579|	-  |
+
+**42\. 清华大学人工智能技术系列报告：** [link](https://reports.aminer.cn)  
+每年会出AI领域相关的报告，内容包含
+  - 自然语言处理 [link](https://static.aminer.cn/misc/article/nlp.pdf)
+  - 知识图谱 [link](https://www.aminer.cn/research_report/5c3d5a8709%20e961951592a49d?download=true&pathname=knowledgegraph.pdf)
+  - 数据挖掘 [link](https://www.aminer.cn/research_report/5c3d5a5cecb160952fa10b76?download=true&pathname=datamining.pdf)
+  - 自动驾驶 [link](https://static.aminer.cn/misc/article/selfdriving.pdf)
+  - 机器翻译 [link](https://static.aminer.cn/misc/article/translation.pdf)
+  - 区块链 [link](https://static.aminer.cn/misc/article/blockchain_public.pdf)
+  - 机器人 [link](https://static.aminer.cn/misc/article/robotics_beta.pdf)
+  - 计算机图形学 [link](https://static.aminer.cn/misc/article/cg.pdf)
+  - 3D打印 [link](https://static.aminer.cn/misc/article/3d.pdf)
+  - 人脸识别 [link](https://static.aminer.cn/misc/article/facerecognition.pdf)
+  - 人工智能芯片 [link](https://static.aminer.cn/misc/article/aichip.pdf)
+  - 等等
+
+**43\.自然语言生成方面:**  
+[Ehud Reiter教授的博客](https://ehudreiter.com)  北大万小军教授强力推荐，该博客对NLG技术、评价与应用进行了深入的探讨与反思。  
+[文本生成相关资源大列表](https://github.com/ChenChengKuan/awesome-text-generation)  
+[自然语言生成：让机器掌握自动创作的本领 - 开放域对话生成及在微软小冰中的实践](https://drive.google.com/file/d/1Mdna3q986k6OoJNsfAHznTtnMAEVzv5z/view)  
+[文本生成控制](https://github.com/harvardnlp/Talk-Latent/blob/master/main.pdf)  
+
+**44\.:**
+[jieba](https://github.com/fxsjy/jieba)和[hanlp](https://github.com/hankcs/pyhanlp)就不必介绍了吧。
+
+**45\.NLP太难了系列:** [github](https://github.com/fighting41love/hardNLP)
+
+- 来到杨过曾经生活过的地方，小龙女动情地说：“我也想过过过儿过过的生活。” ​​​  
+- 来到儿子等校车的地方，邓超对孙俪说：“我也想等等等等等过的那辆车。”  
+- 赵敏说：我也想控忌忌己不想无忌。
+- 你也想犯范范范玮琪犯过的错吗  
+- 对叙打击是一次性行为？
+
+
+**46\.自动对联数据及机器人:**  
+[70万对联数据 link](https://github.com/wb14123/couplet-dataset)  
+[代码 link](https://github.com/wb14123/seq2seq-couplet)  
+
+上联  |下联  
+--|--
+殷勤怕负三春意  | 潇洒难书一字愁
+如此清秋何吝酒  | 这般明月不须钱
+
+**47\.用户名黑名单列表：** [github](https://github.com/marteinn/The-Big-Username-Blacklist)
+包含了用户名禁用列表，比如: [link](https://github.com/marteinn/The-Big-Username-Blacklist/blob/master/list_raw.txt)
+```
+administrator
+administration
+autoconfig
+autodiscover
+broadcasthost
+domain
+editor
+guest
+host
+hostmaster
+info
+keybase.txt
+localdomain
+localhost
+master
+mail
+mail0
+mail1
+```
+
+**48\.罪名法务名词及分类模型:**   [github](https://github.com/liuhuanyong/CrimeKgAssitant)  
+```
+包含856项罪名知识图谱, 基于280万罪名训练库的罪名预测,基于20W法务问答对的13类问题分类与法律资讯问答功能
+```
+**49\.微信公众号语料:** [github](https://github.com/nonamestreet/weixin_public_corpus)
+
+3G语料，包含部分网络抓取的微信公众号的文章，已经去除HTML，只包含了纯文本。每行一篇，是JSON格式，name是微信公众号名字，account是微信公众号ID，title是题目，content是正文
+
+**50\.cs224n深度学习自然语言处理课程：**[link](http://web.stanford.edu/class/cs224n/)  
+  - 课程中模型的pytorch实现 [link](https://github.com/DSKSD/DeepNLP-models-Pytorch)
+  - 面向深度学习研究人员的自然语言处理实例教程 [link](https://github.com/graykode/nlp-tutorial)
+
+
+**51\.中文手写汉字识别：**[github](https://github.com/chizhanyuefeng/Chinese_OCR_CNN-RNN-CTC)
+
+**52\.中文自然语言处理 语料/数据集：**[github](https://github.com/SophonPlus/ChineseNlpCorpus)
+[竞品：THUOCL（THU Open Chinese Lexicon）中文词库](https://github.com/thunlp/THUOCL)
+
+**53\.变量命名神器：**[github](https://github.com/unbug/codelf) [link](https://unbug.github.io/codelf/)
+
+**54\.分词语料库+代码：**[百度网盘链接](https://pan.baidu.com/s/1MXZONaLgeaw0_TxZZDAIYQ)   
+ - 提取码: pea6 
+ - [keras实现的基于Bi-LSTM + CRF的中文分词+词性标注](https://github.com/GlassyWing/bi-lstm-crf)
+ - [基于Universal Transformer + CRF 的中文分词和词性标注](https://github.com/GlassyWing/transformer-word-segmenter)
+ - [快速神经网络分词包 java version](https://github.com/yaoguangluo/NeroParser)
+
+**55\. NLP新书推荐《Natural Language Processing》by Jacob Eisenstein：** [link](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf)
+
+**56\. 任务型对话英文数据集：**   [github](https://github.com/AtmaHou/Task-Oriented-Dialogue-Dataset-Survey)  
+【最全任务型对话数据集】主要介绍了一份任务型对话数据集大全，这份数据集大全涵盖了到目前在任务型对话领域的所有常用数据集的主要信息。此外，为了帮助研究者更好的把握领域进展的脉络，我们以Leaderboard的形式给出了几个数据集上的State-of-the-art实验结果。
+
+**57\. ASR 语音数据集 + 基于深度学习的中文语音识别系统：**  [github](https://github.com/nl8590687/ASRT_SpeechRecognition)
++ Data Sets 数据集
+  * **清华大学THCHS30中文语音数据集**
+
+    data_thchs30.tgz 
+  [OpenSLR国内镜像](<http://cn-mirror.openslr.org/resources/18/data_thchs30.tgz>)
+  [OpenSLR国外镜像](<http://www.openslr.org/resources/18/data_thchs30.tgz>)
+
+    test-noise.tgz 
+  [OpenSLR国内镜像](<http://cn-mirror.openslr.org/resources/18/test-noise.tgz>)
+  [OpenSLR国外镜像](<http://www.openslr.org/resources/18/test-noise.tgz>)
+
+    resource.tgz 
+  [OpenSLR国内镜像](<http://cn-mirror.openslr.org/resources/18/resource.tgz>)
+  [OpenSLR国外镜像](<http://www.openslr.org/resources/18/resource.tgz>)
+
+  * **Free ST Chinese Mandarin Corpus** 
+
+    ST-CMDS-20170001_1-OS.tar.gz 
+  [OpenSLR国内镜像](<http://cn-mirror.openslr.org/resources/38/ST-CMDS-20170001_1-OS.tar.gz>)
+  [OpenSLR国外镜像](<http://www.openslr.org/resources/38/ST-CMDS-20170001_1-OS.tar.gz>)
+
+  * **AIShell-1 开源版数据集** 
+
+    data_aishell.tgz
+  [OpenSLR国内镜像](<http://cn-mirror.openslr.org/resources/33/data_aishell.tgz>)
+  [OpenSLR国外镜像](<http://www.openslr.org/resources/33/data_aishell.tgz>)
+
+  注：数据集解压方法
+
+  ```
+  $ tar xzf data_aishell.tgz
+  $ cd data_aishell/wav
+  $ for tar in *.tar.gz;  do tar xvf $tar; done
+  ```
+
+  * **Primewords Chinese Corpus Set 1** 
+
+    primewords_md_2018_set1.tar.gz
+  [OpenSLR国内镜像](<http://cn-mirror.openslr.org/resources/47/primewords_md_2018_set1.tar.gz>)
+  [OpenSLR国外镜像](<http://www.openslr.org/resources/47/primewords_md_2018_set1.tar.gz>)
+
+
+**58\. 笑声检测器：**  [github](https://github.com/ideo/LaughDetection)
+
+**59\. Microsoft多语言数字/单位/如日期时间识别包：** [github](https://github.com/Microsoft/Recognizers-Text
+
+**60\. chinese-xinhua 中华新华字典数据库及api，包括常用歇后语、成语、词语和汉字** [github](https://github.com/pwxcoo/chinese-xinhua)
+
+**61\. 文档图谱自动生成** [github](https://github.com/liuhuanyong/TextGrapher)  
+ - TextGrapher - Text Content Grapher based on keyinfo extraction by NLP method。输入一篇文档，将文档进行关键信息提取，进行结构化，并最终组织成图谱组织形式，形成对文章语义信息的图谱化展示
+
+**62\. SpaCy 中文模型** [github](https://github.com/howl-anderson/Chinese_models_for_SpaCy)  
+ - 包含Parser, NER, 语法树等功能。有一些英文package使用spacy的英文模型的，如果要适配中文，可能需要使用spacy中文模型。
+
+**63\. Common Voice语音识别数据集新版**  [link](https://voice.mozilla.org/en/datasets)  
+ - 包括来自42,000名贡献者超过1,400小时的语音样本，涵github
+
+**64\. 神经网络关系抽取 pytorch**  [github](https://github.com/ShulinCao/OpenNRE-PyTorch)  
+ - 暂不支持中文
+
+**65\. 基于bert的命名实体识别 pytorch**  [github](https://github.com/Kyubyong/bert_ner)  
+ - 暂不支持中文
+
+**66\. 关键词(Keyphrase)抽取包 pke**  [github](https://github.com/boudinfl/pke)  
+[pke: an open source python-based keyphrase extraction toolkit](http://aclweb.org/anthology/C16-2015)  
+ - 暂不支持中文，我于近期对其进行修改，使其适配中文。
+请关注我的github动态，谢谢！  
+
+**67\. 基于医疗领域知识图谱的问答系统**  [github](https://github.com/zhihao-chen/QASystemOnMedicalGraph)  
+  - 该repo参考了[github](https://github.com/liuhuanyong/QASystemOnMedicalKG)
+
+
+**68\. 基于依存句法与语义角色标注的事件三元组抽取**  [github](https://github.com/liuhuanyong/EventTriplesExtraction) 
+
+**69\. 依存句法分析4万句高质量标注数据** by 苏州大学汉语依存树库（SUCDT）
+[Homepage](http://hlt.suda.edu.cn/index.php/Nlpcc-2019-shared-task)
+数据下载详见homepage底部，需要签署协议，需要邮件接收解压密码。
+
+**70\. cnocr：用来做中文OCR的Python3包，自带了训练好的识别模型** [github](https://github.com/breezedeus/cnocr)
+
+**71\. 中文人物关系知识图谱项目** [github](https://github.com/liuhuanyong/PersonRelationKnowledgeGraph)
+- 中文人物关系图谱构建
+- 基于知识库的数据回标
+- 基于远程监督与bootstrapping方法的人物关系抽取
+- 基于知识图谱的知识问答等应用
+
+**72\. 中文nlp竞赛项目及代码汇总** [github](https://github.com/geekinglcq/CDCS)
+- 文本生成、文本摘要：Byte Cup 2018 国际机器学习竞赛
+- 知识图谱：瑞金医院MMC人工智能辅助构建知识图谱大赛
+- 视频识别 问答：2018之江杯全球人工智能大赛 ：视频识别&问答
+
+**73\. 中文字符数据** [github](https://github.com/skishore/makemeahanzi)
+- 简/繁体汉字笔顺
+- 矢量笔画
+
+**74\. speech-aligner: 从“人声语音”及其“语言文本”，产生音素级别时间对齐标注的工具** [github](https://github.com/open-speech/speech-aligner)
+
+**75\. AmpliGraph: 知识图谱表示学习(Python)库：知识图谱概念链接预测** [github](https://github.com/Accenture/AmpliGraph) 
+- 埃森哲出品，目前尚不支持中文
+
+
+**76\. Scattertext 文本可视化(python)** [github](https://github.com/JasonKessler/scattertext)
+- 很好用的工具包，简单修改后可支持中文
+- 能否分析出某个类别的文本与其他文本的用词差异
+
+**77\. 语言/知识表示工具：BERT & ERNIE** [github](https://github.com/PaddlePaddle/LARK)
+- 百度出品，ERNIE也号称在多项nlp任务中击败了bert
+
+**78\. 中文对比英文自然语言处理NLP的区别综述** [link](https://mp.weixin.qq.com/s/LQU_HJ4q74lL5oCIk7w5RA)
+
+**79\. Synonyms中文近义词工具包** [github](https://github.com/huyingxi/Synonyms)
+- Synonyms 中文近义词工具包，可以用于自然语言理解的很多任务：文本对齐，推荐算法，相似度计算，语义偏移，关键字提取，概念提取，自动摘要，搜索引擎等
+
+**80\. HarvestText领域自适应文本挖掘工具（新词发现-情感分析-实体链接等）** [github](https://github.com/blmoistawinde/HarvestText) 
+
+**81\. word2word：(Python)方便易用的多语言词-词对集：62种语言/3,564个多语言对** [github](https://github.com/Kyubyong/word2word)
+
+**82\. 语音识别语料生成工具：从具有音频/字幕的在线视频创建自动语音识别(ASR)语料库** [github](https://github.com/yc9701/pansori)
+
+**83\. ASR语音大辞典/词典：** [github](hhttps://github.com/aishell-foundation/DaCiDian)
+
+**84\. 构建医疗实体识别的模型，包含词典和语料标注，基于python:** [github](https://github.com/yixiu00001/LSTM-CRF-medical)
+
+**85\. 单文档非监督的关键词抽取：** [github](https://github.com/LIAAD/yake)
+
+**86\. Kashgari中使用gpt-2语言模型** [github](https://github.com/BrikerMan/Kashgari)
+
+**87\.  开源的金融投资数据提取工具** [github](https://github.com/PKUJohnson/OpenData)
+
+**88\. 文本自动摘要库TextTeaser: 仅支持英文** [github](https://github.com/IndigoResearch/textteaser)
+
+**89\. 人民日报语料处理工具集** [github](https://github.com/howl-anderson/tools_for_corpus_of_people_daily)
+
+**90\. 一些关于自然语言的基本模型** [github](https://github.com/lpty/nlp_base)
+
+**91\. 基于14W歌曲知识库的问答尝试，功能包括歌词接龙，已知歌词找歌曲以及歌曲歌手歌词三角关系的问答** [github](https://github.com/liuhuanyong/MusicLyricChatbot)
+
+**92\. 基于Siamese bilstm模型的相似句子判定模型,提供训练数据集和测试数据集** [github](https://github.com/liuhuanyong/SiameseSentenceSimilarity)
+- 提供了10万个训练样本
+
+**93\. 用Transformer编解码模型实现的根据Hacker News文章标题自动生成评论** [github](https://github.com/leod/hncynic)
+
+**94\. 用BERT进行序列标记和文本分类的模板代码** [github](https://github.com/yuanxiaosc/BERT-for-Sequence-Labeling-and-Text-Classification)
+
+**95\. LitBank：NLP数据集——支持自然语言处理和计算人文学科任务的100部带标记英文小说语料** [github](https://github.com/dbamman/litbank)
+
+**96\. 百度开源的基准信息抽取系统** [github](https://github.com/baidu/information-extraction)
+
+**97\. 虚假新闻数据集 fake news corpus** [github](https://github.com/several27/FakeNewsCorpus)
+
+**98\. Facebook: LAMA语言模型分析，提供Transformer-XL/BERT/ELMo/GPT预训练语言模型的统一访问接口** [github](https://github.com/facebookresearch/LAMA)
+
+**99\. CommonsenseQA：面向常识的英文QA挑战** [link](https://www.tau-nlp.org/commonsenseqa)
